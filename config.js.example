@@ -1,0 +1,11 @@
+module.exports = {
+  server: {
+    port: 3000
+  },
+  db: {
+    user: "user",
+    password: "password",
+    cluster: "cluster",
+    dbname: "dbname"
+  }
+}

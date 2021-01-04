@@ -1,0 +1,22 @@
+{
+  "name": "restaurants",
+  "version": "1.0.0",
+  "description": "Services de gestion de restaurants",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deroffal/restaurants.git"
+  },
+  "keywords": [
+    "expressjs"
+  ],
+  "author": "deroffal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deroffal/restaurants/issues"
+  },
+  "homepage": "https://github.com/deroffal/restaurants#readme"
+}
