@@ -21,6 +21,8 @@
   "homepage": "https://github.com/deroffal/restaurants#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.11.10"
+    "express-validator": "^6.9.2",
+    "mongoose": "^5.11.10",
+    "http-errors": "^1.8.0"
   }
 }

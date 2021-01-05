@@ -1,0 +1,4 @@
+= Sources
+
+* https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb
+* https://blog.zenika.com/2020/10/05/lean-code-codez-efficacement-exemple-avec-expressjs/

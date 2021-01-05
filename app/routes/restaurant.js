@@ -1,9 +1,26 @@
-const express = require('express');
-const router = express.Router();
+const {Router} = require('express');
+const {query, oneOf} = require('express-validator');
+const val = require('express-validator');
+const router = Router();
+
 
 const controller = require('../controllers/RestaurantController');
 
-router.get('/', controller.get);
-router.get('/list/', controller.list);
+router.get(
+    '/',
+    query('id').isNumeric(),
+    controller.get
+);
+
+router.get(
+    '/list/',
+    [
+        query('name').optional().isString(),
+        query('borough').optional().isString(),
+        query('cuisine').optional().isString()
+    ],
+    controller.list
+)
+;
 
 module.exports = router;
