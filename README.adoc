@@ -1,0 +1,16 @@
+= Restaurants
+
+Application de démo https://expressjs.com/fr/[Express].
+
+== Base de données
+
+On utilise une base de données hebergée sur https://www.mongodb.com/cloud/atlas[le cloud MongoDb].
+
+=== Créer et peupler une base de données :
+Dans un projet, créer un nouveau cluster. Choisir un `Shared Clusters` (cluster gratuit).
+On peut laisser les options par défaut et lancer la création du Cluster (cela prend quelques minutes).
+
+Une fois le cluster créé, on peut demander d'insérer des données de test.
+Sur la page d'accueil du cluster, choisir `Load Sample Dataset`.
+
+Une fois terminer, on peut supprimer le cluster en cliquant sur `Terminate`.

@@ -1,10 +1,10 @@
-const config = require('./config');
+const config = require('../config');
 const mongoose = require('mongoose');
 
-let user = config.db.user;
-let password = config.db.password;
-let cluster = config.db.cluster;
-let dbname = config.db.dbname;
+const user = config.db.user;
+const password = config.db.password;
+const cluster = config.db.cluster;
+const dbname = config.db.dbname;
 
 mongoose.connect('mongodb+srv://'+user+':'+password+'@'+cluster+'/'+dbname+'?retryWrites=true&w=majority', {
     useNewUrlParser: true,

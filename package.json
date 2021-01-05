@@ -2,7 +2,7 @@
   "name": "restaurants",
   "version": "1.0.0",
   "description": "Services de gestion de restaurants",
-  "main": "server.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/deroffal/restaurants/issues"
   },
-  "homepage": "https://github.com/deroffal/restaurants#readme"
+  "homepage": "https://github.com/deroffal/restaurants#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.10"
+  }
 }
